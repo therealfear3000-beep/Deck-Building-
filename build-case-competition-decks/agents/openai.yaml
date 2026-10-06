@@ -1,0 +1,15 @@
+interface:
+  display_name: MBA Case Competition Deck Builder
+  short_description: Turn playbooks into clear, editable competition decks
+  default_prompt: Use $build-case-competition-decks to turn my playbook into an evidence-led
+    MBA case competition deck with clear sections, relevant diagrams, and an editable
+    PowerPoint.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
